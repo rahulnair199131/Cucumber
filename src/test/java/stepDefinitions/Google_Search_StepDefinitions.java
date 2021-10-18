@@ -40,15 +40,14 @@ public class Google_Search_StepDefinitions {
 	    
 	}
 
-	@SuppressWarnings("deprecation")
 	@Then("the user should be displayed results that match laptops")
 	public void the_user_should_be_displayed_results_that_match_laptops() {
-		
-		boolean flag = false;
 		
 		String text = driver.findElement(By.xpath("//span[@class='pymv4e']")).getText();
 		
 		System.out.println("The first text is "+text);
+		
+		System.out.println("Testing Ok");
 		
 		
 	   
